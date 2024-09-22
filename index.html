@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-left">
+        <div class="header-logo">
+          <img src="./img/logo.svg" alt="" />
+        </div>
+        <span>Candleaf</span>
+      </div>
+      <ul class="header-list">
+        <li><a href="">Discovery</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact us</a></li>
+      </ul>
+      <div class="header-button">
+        <button class="header-account">
+          <i class="fa-regular fa-user"></i>
+          <ul class="header-account-list">
+            <li><a href="./html/signIn.html">Đăng nhập</a></li>
+            <li><a href="./html/signUp.html">Đăng ký</a></li>
+          </ul>
+        </button>
+        <a href="./html/cart.html">
+          <img src="./img/Cart.svg" alt="" />
+          <span class="quality">3</span>
+        </a>
+      </div>
+    </header>
+
+    <section class="banner">
+      <div class="banner-box">
+        <img src="./img/hero-title.png" alt="" />
+        <p>
+          All handmade with natural soy wax, Candleaf is a companion for <br />
+          all your pleasure moments
+        </p>
+        <button>Discovery our collection</button>
+      </div>
+    </section>
+
+    <section class="heading">
+      <h1>Products</h1>
+      <p>Order it for you or for your beloved ones</p>
+    </section>
+
+    <section class="products">
+      <!-- <div class="product-item">
+      <div class="product-item-img">
+        <img src="./img/product1.png" alt="" />
+      </div>
+      <h3 id="1" class="product-name">Spiced Mint</h3>
+      <p class="product-desc">
+        Top grade Soy wax that delivers a smoke less, consistent burn
+      </p>
+      <div class="product-price">
+        <span>9.99$</span>
+        <span>Sold 2k</span>
+      </div>
+      <button class="product-item-button">
+        <i data-id="1" class="fa-solid fa-plus"></i> Add to cart
+      </button>
+    </div> -->
+    </section>
+
+    <script defer src="./js/config.js"></script>
+    <script defer type="module" src="./js/rederData.js"></script>
+    <script defer type="module" src="./js/addToCart.js"></script>
+    <!-- <script src="./js/localStorage.js"></script> -->
+    <script defer src="./js/index.js"></script>
+  </body>
+</html>

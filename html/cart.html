@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cart</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-left">
+      <div class="header-logo">
+        <img src="../img/logo.svg" alt="" />
+      </div>
+      <span>Candleaf</span>
+    </div>
+    <ul class="header-list">
+      <li><a href="">Discovery</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Contact us</a></li>
+    </ul>
+    <div class="header-button">
+      <button><i class="fa-regular fa-user"></i></button>
+      <a href="#">
+        <img src="../img/Cart.svg" alt="" />
+        <span class="quality">12</span>
+      </a>
+    </div>
+  </header>
+  <div class="cart">
+    <h1>Your cart items</h1>
+    <a href="../index.html">Back to shopping</a>
+    <div class="table-container">
+      <table class="table">
+        <thead>
+          <tr class="table-row table-header">
+            <th style="width: 635px">Product</th>
+            <th style="width: 160px">Price</th>
+            <th style="width: 160px">Quantity</th>
+            <th style="width: 160px">Total</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr class="table-row">
+            <td class="table-data">
+              <div class="table-product">
+                <div class="table-img">
+                  <img src="../img/product1.png" alt="" />
+                </div>
+                <div class="table-title">
+                  <h2>Spiced Mint</h2>
+                  <button>Remove</button>
+                </div>
+              </div>
+            </td>
+            <td class="table-data table-price">$ 9.99</td>
+            <td class="table-data">
+              <div class="table-quality">
+                <button><i class="fa-solid fa-minus"></i></button>
+                <div class="table-count">1</div>
+                <button><i class="fa-solid fa-plus"></i></button>
+              </div>
+            </td>
+            <td class="table-data table-price">$ 9.99</td>
+          </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+  <script src="../js/cart.js"></script>
+</body>
+
+</html>

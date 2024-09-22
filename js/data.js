@@ -1,0 +1,58 @@
+export const productsList = [
+  {
+    id: 1,
+    productName: "Spiced Mint",
+    price: 9.99,
+    img: "../img/product1.png",
+    quality: 1,
+  },
+  {
+    id: 2,
+    productName: "Sweet Straweberry",
+    price: 6,
+    img: "../img/product2.png",
+    quality: 1,
+  },
+  {
+    id: 3,
+    productName: "Cool Blueberries",
+    price: 10,
+    img: "../img/product3.png",
+    quality: 1,
+  },
+  {
+    id: 4,
+    productName: "Juicy Lemon",
+    price: 20,
+    img: "../img/product4.png",
+    quality: 1,
+  },
+  {
+    id: 5,
+    productName: "Spiced Mint",
+    price: 4,
+    img: "../img/product5.png",
+    quality: 1,
+  },
+  {
+    id: 6,
+    productName: "Fragrant Cinnamon",
+    price: 15,
+    img: "../img/product6.png",
+    quality: 1,
+  },
+  {
+    id: 7,
+    productName: "Summer Cherries",
+    price: 12,
+    img: "../img/product7.png",
+    quality: 1,
+  },
+  {
+    id: 8,
+    productName: "Clean Lavander",
+    price: 14,
+    img: "../img/product8.png",
+    quality: 1,
+  },
+];

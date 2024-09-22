@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/account.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="account">
+            <div class="account-title">SIGN UP</div>
+            <p class="show-error">Loi</p>
+            <p class="show-success">Bạn đã đăng ký thành công</p>
+            <form id="account-form">
+                <div class="account-group">
+                    <label class="account-label" for="email">Email</label>
+                    <input class="account-input" type="email" name="email" id="email"
+                        placeholder="Enter your email address">
+                </div>
+                <div class="account-group">
+                    <label class="account-label" for="password">Password</label>
+                    <div class="password-container">
+                        <input class="account-input" type="password" name="password" id="password"
+                            placeholder="Enter your Password">
+                        <i class="fa-regular fa-eye toggle-password" id="togglePassword"></i>
+                        <!-- <i class="fa-regular fa-eye-slash toggle-password" id="togglePassword"></i> -->
+                    </div>
+
+                </div>
+                <div class="account-group">
+                    <label class="account-label" for="cf-password">Confrim Password</label>
+                    <div class="password-container">
+                        <input class="account-input" type="password" name="password" id="cf-password"
+                            placeholder="Confrim your Password">
+                        <i class="fa-regular fa-eye toggle-password" id="togglePassword"></i>
+                        <!-- <i class="fa-regular fa-eye-slash toggle-password" id="togglePassword"></i> -->
+                    </div>
+
+                </div>
+                <button type="submit" class="account-submit">
+                    <span class="loader"></span>
+                    <span class="text-submit">Register</span>
+                </button>
+
+                <div class="separator">
+                    <span>OR</span>
+                </div>
+
+                <div class="account-social">
+                    <a href=""><img src="../img/google.png" alt=""></a>
+                    <a href=""><img src="../img/facebook.png" alt=""></a>
+                </div>
+                <p class="account-info">
+                    If you don't have an account register
+                    <a href="./signIn.html">Login here !</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+    <script defer src="../js/config.js"></script>
+    <script src="../js/signUp.js"></script>
+</body>
+
+</html>
